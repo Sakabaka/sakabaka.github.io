@@ -22,7 +22,7 @@ let ImpObject;
 
 // import this on your HTML
 window.addEventListener('load', () => {
-    ImpObject = document.querySelector('[model]');
+    ImpObject = document.getElementById('model');
 
     const camera = document.querySelector('[camera]');
     const marker = document.querySelector('a-marker');
